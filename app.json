@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Adipan",
+    "slug": "adipan",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo8.jpg",
+
+    "splash": {
+      "image": "./assets/splash-adipan.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#6A1B1A"
+    },
+
+    "assetBundlePatterns": ["**/*"],
+
+    "android": {
+      "package": "com.adipan.app",
+      "googleServicesFile": "./android/app/google-services.json",
+      "versionCode": 1,
+      "permissions": [
+        "INTERNET",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo8.jpg",
+        "backgroundColor": "#6A1B1A"
+      }
+    },
+
+    "ios": {
+      "bundleIdentifier": "com.adipan.app",
+      "buildNumber": "1.0.0"
+    },
+
+    "extra": {
+      "eas": {
+        "projectId": "REEMPLAZA_CON_TU_PROJECT_ID_EAS"
+      }
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ]
+  }
+}
+
+
+
