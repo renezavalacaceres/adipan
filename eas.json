@@ -9,19 +9,24 @@
       "env": {
         "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
       },
-      "buildCommand": "bash ./eas-build-pre-install.sh && expo prebuild --clean"
+      "hooks": {
+        "prebuild": "bash ./eas-build-pre-install.sh"
+      }
     },
     "production": {
       "env": {
         "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
       },
-      "buildCommand": "bash ./eas-build-pre-install.sh && expo prebuild --clean"
+      "hooks": {
+        "prebuild": "bash ./eas-build-pre-install.sh"
+      }
     }
   },
   "submit": {
     "production": {}
   }
 }
+
 
 
 
