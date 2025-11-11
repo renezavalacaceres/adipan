@@ -8,17 +8,20 @@
       "distribution": "internal",
       "env": {
         "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
-      }
+      },
+      "buildCommand": "bash ./eas-build-pre-install.sh && expo prebuild --clean"
     },
     "production": {
       "env": {
         "GOOGLE_SERVICES_JSON": "@GOOGLE_SERVICES_JSON"
-      }
+      },
+      "buildCommand": "bash ./eas-build-pre-install.sh && expo prebuild --clean"
     }
   },
   "submit": {
     "production": {}
   }
 }
+
 
 
