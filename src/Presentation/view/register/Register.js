@@ -146,8 +146,10 @@ const RegisterScreen = ({ navigation }) => {
         >
           <View style={styles.container}>
             <Loader visible={loading} />
-            <Image style={styles.imageBackg} />
-
+            <Image
+                style={styles.imageBackg}
+                source={require('../../../../assets/logo_fondo.png')}
+            />
             <View style={styles.logoContainer}>
               <Text style={styles.logotext}>¡Afíliate!</Text>
               <View
@@ -299,6 +301,7 @@ const styles = StyleSheet.create({
     height: '100%',
     resizeMode: 'cover',
     position: 'absolute',
+    opacity: 0.3,
   },
   logoContainer: {
     alignSelf: 'center',

@@ -4,19 +4,18 @@
     "slug": "adipan",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/logo8.jpg",
-
+    "icon": "./assets/logo4.png",
     "splash": {
       "image": "./assets/splash-adipan.png",
       "resizeMode": "cover",
       "backgroundColor": "#6A1B1A"
     },
-
-    "assetBundlePatterns": ["**/*"],
-
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "com.adipan.app",
-      "googleServicesFile": "./android/app/google-services.json",
+      "googleServicesFile": "./google-services.json",
       "versionCode": 1,
       "permissions": [
         "INTERNET",
@@ -25,36 +24,30 @@
         "WRITE_EXTERNAL_STORAGE"
       ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/logo8.jpg",
+        "foregroundImage": "./assets/logo4.png",
         "backgroundColor": "#6A1B1A"
       }
     },
-
     "ios": {
       "bundleIdentifier": "com.adipan.app",
       "buildNumber": "1.0.0"
     },
-
-    "extra": {
-      "eas": {
-        "projectId": "REEMPLAZA_CON_TU_PROJECT_ID_EAS"
-      }
-    },
-
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-
     "runtimeVersion": {
       "policy": "sdkVersion"
     },
-
     "plugins": [
       "@react-native-firebase/app",
       "@react-native-firebase/auth"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3db793cb-b01e-4369-b2dc-006072851ec3"
+      }
+    },
+    "owner": "renezc"
   }
 }
-
-
 

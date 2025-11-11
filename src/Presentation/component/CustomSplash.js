@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { View, Image, Animated, Text, StyleSheet, Dimensions } from "react-native";
+import COLORS from "../const/colors";
 
 const { width, height } = Dimensions.get("window");
 
@@ -57,6 +58,7 @@ const styles = StyleSheet.create({
     width,
     height,
     resizeMode: "cover",
+    color: COLORS.guinda,
   },
   logo: {
     width: 200,

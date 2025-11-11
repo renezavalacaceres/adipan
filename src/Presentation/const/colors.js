@@ -14,7 +14,7 @@ const COLORS = {
   orangeLight: '#ca8a04',
   verdeAgua: '#00DBC8',
   purpura: '#63254F',
-  guinda: '#35224B',
+  guinda: '#281441',
   chocoplom: '#80115D',
   sirhuelo: '#4E2D4B',
 

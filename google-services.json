@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1092756433367",
+    "project_id": "panaderia-11e32",
+    "storage_bucket": "panaderia-11e32.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092756433367:android:9cc2c0188d670e81244392",
+        "android_client_info": {
+          "package_name": "com.adipan.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQbN_EodxjzJaypsokVfcF5UfDb7RmJLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

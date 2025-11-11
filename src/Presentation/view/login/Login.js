@@ -103,7 +103,7 @@ const LoginScreen = ({ navigation }) => {
           <Loader visible={loading} />
           <Image
             style={styles.imageBackg}
-            source={require('../../../../assets/img/imagen0.png')}
+            source={require('../../../../assets/logo_fondo.png')}
           />
           <View style={styles.logoContainer}>
             <Image

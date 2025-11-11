@@ -58,7 +58,7 @@ const HomeScreen = ({ navigation }) => {
     setModalVisible(false);
   };
 
-  const image = require('../../../../assets/img/imagen0.png');
+  const image = require('../../../../assets/logo_fondo.png');
 
   return (
     <>
@@ -76,7 +76,7 @@ const HomeScreen = ({ navigation }) => {
           }
         >
           <Image
-            source={require('../../../../assets/img/usd-circulo.png')}
+            source={require('../../../../assets/usd-circulo.png')}
             style={styles.logoutImage}
           />
           <Text style={styles.logoText}>Pagar</Text>
